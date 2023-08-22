@@ -1,3 +1,15 @@
+# [1.6.0](https://github.com/nitinmittal23/test-release/compare/1.5.0...1.6.0) (2023-08-22)
+
+
+### Bug Fixes
+
+* 7th update about the feature, patch ([eae7bb8](https://github.com/nitinmittal23/test-release/commit/eae7bb8a33950d2cb1c61e858d2abddc287966d6))
+
+
+### Features
+
+* 6th update about the feature, minor ([d5e9db6](https://github.com/nitinmittal23/test-release/commit/d5e9db63a3bea72062b5aa95a94582203be76733))
+
 # [1.5.0](https://github.com/nitinmittal23/test-release/compare/1.4.1...1.5.0) (2023-08-22)
 
 
