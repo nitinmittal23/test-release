@@ -5,6 +5,7 @@ const test = () => {
     console.log("2nd new update in index")
     console.log("3rd new update in index")
     console.log("4th new update in index")
+    console.log("5th new update in index")
 }
 
 test();
