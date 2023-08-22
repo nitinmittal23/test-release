@@ -1,0 +1,53 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test",
+  "type": "module",
+  "scripts": {
+    "prepublish": "yarn build",
+    "build": "tsc"
+  },
+  "author": "nitinmittal23",
+  "license": "MIT",
+  "files": [
+    "./dist/**"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitinmittal23/test-release.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nitinmittal23/test-release/issues"
+  },
+  "homepage": "https://github.com/nitinmittal23/test-release#readme",
+  "dependencies": {
+    "module": "^1.2.5"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.0.4",
+    "@semantic-release/npm": "^10.0.5",
+    "semantic-release": "^21.0.9",
+    "ts-node": "^10.9.1",
+    "tsc-alias": "^1.8.7",
+    "typescript": "^4.9.5"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      [
+        "@semantic-release/github",
+        {
+          "assets": "dist/**/*.{js,css}"
+        }
+      ]
+    ]
+  }
+}
